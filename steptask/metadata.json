@@ -1,0 +1,6 @@
+{
+  "name": "Task Management",
+  "description": "Create structured tasks with step-by-step instructions on what to do and how to do it, with interactive execution and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
