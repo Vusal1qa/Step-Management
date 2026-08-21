@@ -9,6 +9,10 @@ pluginManagement {
     }
     mavenCentral()
     gradlePluginPortal()
+    // Compose Multiplatform plugin repository
+    maven {
+      url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev")
+    }
   }
 }
 
@@ -25,3 +29,6 @@ dependencyResolutionManagement {
 rootProject.name = "Task Management"
 
 include(":app")
+include(":common")
+include(":desktop")
+include(":web")
